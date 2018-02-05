@@ -1,6 +1,10 @@
 官方文档： https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pagescreenshotoptions
 ## puppetter-demo
-['https://github.com/artiely/puppeteer-demo.git'](https://github.com/artiely/puppeteer-demo.git)
+[https://github.com/artiely/puppeteer-demo.git](https://github.com/artiely/puppeteer-demo.git)
+
+初次体验结果    
+按照指定设备自动百度搜索关键词进入详情并截图或pdf
+自动登录掘金账号并提取喜欢文章生成json
 
 ## Puppeteer 介绍
 
@@ -37,7 +41,7 @@ const iPhone = devices['iPhone 6'];
 await page.emulate(iPhone)
 ```  
 
-参考
+参考    
 https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pagescreenshotoptions     
 https://cloud.tencent.com/developer/article/1006000     
 https://www.jianshu.com/p/2f04f9d665ce    
