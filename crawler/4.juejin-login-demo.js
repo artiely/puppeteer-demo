@@ -11,7 +11,7 @@ void(async() => {
   await page.click('.login')
   await page.waitFor(1000);
   await page.type('[name=loginPhoneOrEmail]', '15926290460', {delay: 100});
-  await page.type('[name=loginPassword]', 'P@ssw0rd1024', {delay: 100});
+  await page.type('[name=loginPassword]', '*******', {delay: 100});
   await page.click('.auth-form .btn')
   let targetLink = await page.evaluate(() => {
     // ...
